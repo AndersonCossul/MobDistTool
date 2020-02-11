@@ -1,0 +1,12 @@
+[2020-02-11 20:34:39.251971] Login Failed for anderson.cossul@softdesign.com.br
+[2020-02-11 20:34:45.542025] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:41:41.889428] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:42:29.602088] Login Success for william.guimaraes@softdesign-rs.com.br
+[2020-02-11 20:43:05.551421] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:43:26.230716] DELETE Artifact (v 'cef6adc, branch:develop') on application android 'ACM-Android'
+[2020-02-11 20:47:09.710471] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:47:59.829563] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:50:34.321504] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:56:21.791553] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 20:56:29.561248] DELETE Artifact (v 'fc038da, branch:develop') on application android 'ACM-Android'
+[2020-02-11 20:56:31.722866] DELETE Artifact (v 'f60760b, branch:develop') on application android 'ACM-Android'

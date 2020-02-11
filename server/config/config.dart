@@ -1,25 +1,24 @@
 // Copyright (c) 2016, the Mobile App Distribution Tool project authors.
 // All rights reserved. Use of this source code is governed by a
 // MIT-style license that can be found in the LICENSE file.
-
 import 'dart:io';
 import 'dart:async';
 import 'dart:convert';
-
 final Map defaultConfig = {
   MDT_SERVER_PORT:8080,
-  MDT_SERVER_URL:"http://localhost:8080",
-  MDT_DATABASE_URI:"mongodb://localhost:27017/mdt_dev",
-  MDT_STORAGE_NAME:"yes_storage_manager",
-  MDT_STORAGE_CONFIG:{},
+  MDT_SERVER_URL:"https://mob-dist-tool.softdesign-rs.com.br",
+  MDT_DATABASE_URI:"mongodb://host.docker.internal:27017/mdt_dev",
+  MDT_STORAGE_NAME:"local_storage_manager",
+  MDT_STORAGE_CONFIG:{"RootDirectory":"/artifacts"},
   MDT_SMTP_CONFIG:{},
   MDT_REGISTRATION_WHITE_DOMAINS:[],
   MDT_REGISTRATION_NEED_ACTIVATION:"false",
-  MDT_TOKEN_SECRET:"secret token dsfsxfsfsqd%%Qsdqs",
-  MDT_LOG_DIR:"",
-  MDT_LOG_TO_CONSOLE:"true",
-  MDT_SYSADMIN_INITIAL_PASSWORD:"sysadmin",
-  MDT_SYSADMIN_INITIAL_EMAIL:"admin@localhost.com",
+  MDT_TOKEN_SECRET:"993b04b28755f4713e8f6fabfd8b0e70dcb3d79",
+  MDT_LOG_DIR:"/opt/MobDistTool/logs/",
+//  MDT_LOG_DIR:".",
+  MDT_LOG_TO_CONSOLE:"false",
+  MDT_SYSADMIN_INITIAL_PASSWORD:"1q2w3e4r",
+  MDT_SYSADMIN_INITIAL_EMAIL:"admin@softdesign-rs.com.br",
   //delay (in ms) before login resquest response (limit brut attack).
   MDT_LOGIN_DELAY:"0",
   // minimum strength password required
@@ -27,10 +26,7 @@ final Map defaultConfig = {
   /// [10**2, 10**4, 10**6, 10**8, Infinity]. see https://github.com/exitlive/xcvbnm for more details
   MDT_PASSWORD_MIN_STRENGTH:"0"
 };
-
 Map<String, Object> currentLoadedConfig = defaultConfig;
-
-
 final String MDT_DATABASE_URI = "MDT_DATABASE_URI";
 final String MDT_STORAGE_NAME = "MDT_STORAGE_NAME";
 final String MDT_STORAGE_CONFIG = "MDT_STORAGE_CONFIG";
@@ -46,7 +42,6 @@ final String MDT_SYSADMIN_INITIAL_EMAIL = "MDT_SYSADMIN_INITIAL_EMAIL";
 final String MDT_LOG_TO_CONSOLE = "MDT_LOG_TO_CONSOLE";
 final String MDT_LOGIN_DELAY = "MDT_LOGIN_DELAY";
 final String MDT_PASSWORD_MIN_STRENGTH = "MDT_PASSWORD_MIN_STRENGTH";
-
 Future loadConfig() async{
   //load 'config.json' file is present
   var loadedConfig = null;
@@ -60,10 +55,8 @@ Future loadConfig() async{
     //load default config
     currentLoadedConfig.addAll(defaultConfig);
   }
-
   //override by env values if present
   Map<String, String> env = Platform.environment;
-
   if (env[MDT_LOG_TO_CONSOLE] != null){
     currentLoadedConfig[MDT_LOG_TO_CONSOLE] = env[MDT_LOG_TO_CONSOLE];
   }
@@ -82,11 +75,9 @@ Future loadConfig() async{
   if (env[MDT_LOG_DIR] != null){
     currentLoadedConfig[MDT_LOG_DIR] = env[MDT_LOG_DIR];
   }
-
   if (env[MDT_TOKEN_SECRET] != null){
     currentLoadedConfig[MDT_TOKEN_SECRET] = env[MDT_TOKEN_SECRET];
   }
-
   if (env[MDT_SERVER_PORT] != null){
     currentLoadedConfig[MDT_SERVER_PORT] = env[MDT_SERVER_PORT];
   }
@@ -111,12 +102,10 @@ Future loadConfig() async{
   if (env[MDT_REGISTRATION_NEED_ACTIVATION] != null){
     currentLoadedConfig[MDT_REGISTRATION_NEED_ACTIVATION] = env[MDT_REGISTRATION_NEED_ACTIVATION];
   }
-
   //check config
   if (currentLoadedConfig[MDT_DATABASE_URI] == null){
     throw new StateError("MDT_DATABASE_URI config not found");
   }
-
   if (currentLoadedConfig[MDT_STORAGE_NAME] == null){
     throw new StateError("MDT_STORAGE_NAME config not found");
   }
