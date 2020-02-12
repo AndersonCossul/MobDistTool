@@ -1,0 +1,823 @@
+[2020-02-11 21:24:59.621384] INFO RPC: MDT starting ...
+[2020-02-11 21:24:59.632748] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:24:59.637325] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:24:59.641319] INFO RPC: mongo initializing... 
+[2020-02-11 21:24:59.731069] INFO RPC: mongo initialized
+[2020-02-11 21:24:59.735012] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:24:59.886196] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:24:59.887505] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:24:59.891563] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:24:59.895634] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:24:59.900326] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:24:59.902560] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:24:59.904962] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:24:59.906755] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:24:59.908539] INFO RPC: *       	->	/web/
+[2020-02-11 21:24:59.910617] INFO RPC: *       	->	/api/
+[2020-02-11 21:24:59.915541] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:24:59.946430] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:24:59.948036] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:25:30.703399	0:00:00.027827	GET	[304]	/web/
+2020-02-11 21:25:31.140049	0:00:00.004132	GET	[404]	/favicon.ico
+2020-02-11 21:25:33.254326	0:00:00.145736	POST	[200]	/api/users/v1/login
+2020-02-11 21:25:33.470607	0:00:00.348768	GET	[200]	/api/applications/v1/search
+2020-02-11 21:25:33.861779	0:00:00.104975	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:25:34.010181	0:00:00.009318	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:25:34.040010	0:00:00.004088	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:25:34.057860	0:00:00.004687	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:25:34.074861] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:25:34.070854	0:00:00.010097	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:25:34.115552] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:25:34.109945	0:00:00.008289	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:25:34.132520	0:00:00.009298	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:25:34.159595	0:00:00.024047	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:25:34.205518	0:00:00.009662	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:25:34.273619	0:00:00.008026	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:25:34.435588	0:00:00.014974	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:25:34.557807	0:00:00.003538	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:25:34.681064	0:00:00.012068	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:25:34.789463	0:00:00.008187	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:25:36.191198	0:00:00.039030	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:25:36.167165	0:00:00.106081	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:25:36.290395	0:00:00.016667	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:25:39.569207] ERROR RPC: Bad state: Unable to delete artifact:Bad state: Unable to delete file artifact:Error on deleting file:
+ #0      deleteArtifact.<deleteArtifact_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:175:5)
+#1      _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#2      _rootRunBinary (dart:async/zone.dart:1170)
+#3      _CustomZone.runBinary (dart:async/zone.dart:1049)
+#4      _FutureListener.handleError (dart:async/future_impl.dart:146)
+#5      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#6      _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#7      _Future._completeError (dart:async/future_impl.dart:485)
+#8      _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#9      _Completer.completeError (dart:async/future_impl.dart:27)
+#10     deleteArtifactFile.<deleteArtifactFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:170:1)
+#11     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#12     _rootRunBinary (dart:async/zone.dart:1170)
+#13     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#14     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#15     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#16     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#17     _Future._completeError (dart:async/future_impl.dart:485)
+#18     _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#19     _Completer.completeError (dart:async/future_impl.dart:27)
+#20     LocalStorageManager.deleteStoredFile.<deleteStoredFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/storage/local_storage_manager.dart:73:3)
+#21     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#22     _rootRunBinary (dart:async/zone.dart:1170)
+#23     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#24     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#25     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#26     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#27     _Future._completeWithValue (dart:async/future_impl.dart:477)
+#28     _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:528)
+#29     _rootRun (dart:async/zone.dart:1150)
+#30     _CustomZone.run (dart:async/zone.dart:1026)
+#31     _CustomZone.runGuarded (dart:async/zone.dart:924)
+#32     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:951)
+#33     _microtaskLoop (dart:async/schedule_microtask.dart:41)
+#34     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50)
+#35     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#36     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:149)
+
+2020-02-11 21:25:39.550382	0:00:00.021513	DELETE	[500]	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+2020-02-11 21:27:14.157021	0:00:00.002245	GET	[304]	/web/
+2020-02-11 21:27:16.719689	0:00:00.012492	POST	[200]	/api/users/v1/login
+2020-02-11 21:27:16.798979	0:00:00.261640	GET	[200]	/api/applications/v1/search
+2020-02-11 21:27:17.113192	0:00:00.035785	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:27:17.119601	0:00:00.031462	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:27:17.123827	0:00:00.076144	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:27:17.126682	0:00:00.075119	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:27:17.129981	0:00:00.078968	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:27:17.222778	0:00:00.011519	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:27:17.226845	0:00:00.009023	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:27:17.229789	0:00:00.017560	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:27:17.251477] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:27:17.240408	0:00:00.017281	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+2020-02-11 21:27:17.266861	0:00:00.016541	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+[2020-02-11 21:27:17.298237] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:27:17.287081	0:00:00.014203	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:27:17.278663	0:00:00.025292	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:27:17.294735	0:00:00.019692	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:27:17.396217	0:00:00.003865	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:27:17.944062	0:00:00.012059	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:27:17.916090	0:00:00.073436	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:27:18.045081	0:00:00.010146	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:27:23.471225] ERROR RPC: Bad state: Unable to delete artifact:Bad state: Unable to delete file artifact:Error on deleting file:
+ #0      deleteArtifact.<deleteArtifact_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:175:5)
+#1      _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#2      _rootRunBinary (dart:async/zone.dart:1170)
+#3      _CustomZone.runBinary (dart:async/zone.dart:1049)
+#4      _FutureListener.handleError (dart:async/future_impl.dart:146)
+#5      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#6      _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#7      _Future._completeError (dart:async/future_impl.dart:485)
+#8      _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#9      _Completer.completeError (dart:async/future_impl.dart:27)
+#10     deleteArtifactFile.<deleteArtifactFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:170:1)
+#11     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#12     _rootRunBinary (dart:async/zone.dart:1170)
+#13     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#14     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#15     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#16     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#17     _Future._completeError (dart:async/future_impl.dart:485)
+#18     _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#19     _Completer.completeError (dart:async/future_impl.dart:27)
+#20     LocalStorageManager.deleteStoredFile.<deleteStoredFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/storage/local_storage_manager.dart:73:3)
+#21     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#22     _rootRunBinary (dart:async/zone.dart:1170)
+#23     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#24     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#25     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#26     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#27     _Future._completeWithValue (dart:async/future_impl.dart:477)
+#28     _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:528)
+#29     _rootRun (dart:async/zone.dart:1150)
+#30     _CustomZone.run (dart:async/zone.dart:1026)
+#31     _CustomZone.runGuarded (dart:async/zone.dart:924)
+#32     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:951)
+#33     _microtaskLoop (dart:async/schedule_microtask.dart:41)
+#34     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50)
+#35     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#36     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:149)
+
+2020-02-11 21:27:23.457934	0:00:00.015788	DELETE	[500]	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+[2020-02-11 21:27:45.805762] INFO RPC: MDT starting ...
+[2020-02-11 21:27:45.822266] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:27:45.827117] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:27:45.830339] INFO RPC: mongo initializing... 
+[2020-02-11 21:27:45.925856] INFO RPC: mongo initialized
+[2020-02-11 21:27:45.930364] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:27:46.104183] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:27:46.105913] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:27:46.110071] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:27:46.113618] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:27:46.117172] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:27:46.121311] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:27:46.123314] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:27:46.125512] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:27:46.128195] INFO RPC: *       	->	/web/
+[2020-02-11 21:27:46.131775] INFO RPC: *       	->	/api/
+[2020-02-11 21:27:46.135353] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:28:02.199689] INFO RPC: MDT starting ...
+[2020-02-11 21:28:02.214312] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:28:02.220433] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:28:02.223120] INFO RPC: mongo initializing... 
+[2020-02-11 21:28:02.327390] INFO RPC: mongo initialized
+[2020-02-11 21:28:02.329991] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:28:02.474661] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:28:02.476090] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:28:02.478239] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:28:02.480024] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:28:02.481741] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:28:02.483508] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:28:02.485456] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:28:02.486919] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:28:02.488257] INFO RPC: *       	->	/web/
+[2020-02-11 21:28:02.489963] INFO RPC: *       	->	/api/
+[2020-02-11 21:28:02.493641] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:29:16.841092] INFO RPC: MDT starting ...
+[2020-02-11 21:29:16.849495] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:29:16.853870] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:29:16.856207] INFO RPC: mongo initializing... 
+[2020-02-11 21:29:16.946181] INFO RPC: mongo initialized
+[2020-02-11 21:29:16.950198] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:29:17.115414] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:29:17.116917] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:29:17.120447] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:29:17.123338] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:29:17.126166] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:29:17.129183] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:29:17.131988] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:29:17.134358] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:29:17.137143] INFO RPC: *       	->	/web/
+[2020-02-11 21:29:17.139687] INFO RPC: *       	->	/api/
+[2020-02-11 21:29:17.142712] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:29:51.818521] INFO RPC: MDT starting ...
+[2020-02-11 21:29:51.832464] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:29:51.840622] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:29:51.843150] INFO RPC: mongo initializing... 
+[2020-02-11 21:29:51.939716] INFO RPC: mongo initialized
+[2020-02-11 21:29:51.944175] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:29:52.129674] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:29:52.130556] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:29:52.136262] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:29:52.141062] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:29:52.143617] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:29:52.145905] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:29:52.149077] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:29:52.150642] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:29:52.152609] INFO RPC: *       	->	/web/
+[2020-02-11 21:29:52.154033] INFO RPC: *       	->	/api/
+[2020-02-11 21:29:52.160565] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:29:52.187533] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:29:52.188359] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:30:08.411970	0:00:00.175977	POST	[200]	/api/users/v1/login
+2020-02-11 21:30:08.675076	0:00:00.377303	GET	[200]	/api/applications/v1/search
+2020-02-11 21:30:09.090330	0:00:00.042374	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:30:09.101338	0:00:00.057232	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:30:09.227377	0:00:00.035683	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:30:09.249546	0:00:00.018601	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:30:09.280352	0:00:00.006231	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:30:09.307] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:30:09.296859	0:00:00.022725	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:30:09.332515] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:30:09.322644	0:00:00.013491	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:30:09.343482	0:00:00.021118	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:30:09.358859	0:00:00.016722	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:30:09.383511	0:00:00.014533	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:30:09.523175	0:00:00.014180	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:30:09.671541	0:00:00.004677	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:30:09.803917	0:00:00.006662	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:30:09.892564	0:00:00.011736	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:30:10.058548	0:00:00.045933	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:30:10.032087	0:00:00.122873	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:30:10.170377	0:00:00.017185	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:32:18.138508] INFO RPC: MDT starting ...
+[2020-02-11 21:32:18.147338] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:32:18.153295] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:32:18.155798] INFO RPC: mongo initializing... 
+[2020-02-11 21:32:18.243422] INFO RPC: mongo initialized
+[2020-02-11 21:32:18.246494] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:32:18.393744] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:32:18.394902] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:32:18.396989] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:32:18.398892] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:32:18.401901] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:32:18.404015] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:32:18.405958] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:32:18.407954] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:32:18.410005] INFO RPC: *       	->	/web/
+[2020-02-11 21:32:18.412408] INFO RPC: *       	->	/api/
+[2020-02-11 21:32:18.416838] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:32:18.441846] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:32:18.443379] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:32:21.393702	0:00:00.022904	GET	[200]	/web/
+2020-02-11 21:32:23.779242	0:00:00.134786	POST	[200]	/api/users/v1/login
+2020-02-11 21:32:23.983727	0:00:00.302651	GET	[200]	/api/applications/v1/search
+2020-02-11 21:32:24.320114	0:00:00.029754	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:32:24.398482	0:00:00.030502	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:32:24.462855	0:00:00.011951	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:32:24.488855	0:00:00.003991	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:32:24.507803] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:32:24.504679	0:00:00.008675	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:32:24.532664] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:32:24.528718	0:00:00.006203	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:32:24.543307	0:00:00.003040	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:32:24.564386	0:00:00.012583	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:32:24.627563	0:00:00.007570	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:32:24.669785	0:00:00.009472	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:32:24.803907	0:00:00.013738	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:32:24.928726	0:00:00.005083	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:32:25.047960	0:00:00.009790	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:32:25.162874	0:00:00.036308	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:32:25.212899	0:00:00.002972	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:32:25.136422	0:00:00.110769	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:32:25.305768	0:00:00.015167	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+2020-02-11 21:32:29.770656	0:00:00.020671	DELETE	[200]	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+2020-02-11 21:32:32.462454	0:00:00.009546	GET	[304]	/web/
+2020-02-11 21:32:35.761646	0:00:00.012583	POST	[200]	/api/users/v1/login
+2020-02-11 21:32:35.838282	0:00:00.199552	GET	[200]	/api/applications/v1/search
+2020-02-11 21:32:36.070668	0:00:00.032034	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:32:36.073059	0:00:00.054670	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:32:36.079850	0:00:00.049732	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:32:36.082581	0:00:00.049343	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:32:36.086904	0:00:00.067494	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:32:36.171960	0:00:00.029023	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+2020-02-11 21:32:36.181762	0:00:00.021674	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:32:36.193646	0:00:00.012159	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+[2020-02-11 21:32:36.219761] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:32:36.196684	0:00:00.030836	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:32:36.235271] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:32:36.215282	0:00:00.030124	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:32:36.250922	0:00:00.023989	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:32:36.259041	0:00:00.017518	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:32:36.264927	0:00:00.017977	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:32:36.403408	0:00:00.002988	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:32:37.153522	0:00:00.013014	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:32:37.126869	0:00:00.073483	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:32:37.252863	0:00:00.009063	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:32:44.687551] ERROR RPC: Bad state: Unable to delete artifact:Bad state: Unable to delete file artifact:Error on deleting file:
+ #0      deleteArtifact.<deleteArtifact_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:175:5)
+#1      _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#2      _rootRunBinary (dart:async/zone.dart:1170)
+#3      _CustomZone.runBinary (dart:async/zone.dart:1049)
+#4      _FutureListener.handleError (dart:async/future_impl.dart:146)
+#5      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#6      _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#7      _Future._completeError (dart:async/future_impl.dart:485)
+#8      _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#9      _Completer.completeError (dart:async/future_impl.dart:27)
+#10     deleteArtifactFile.<deleteArtifactFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:170:1)
+#11     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#12     _rootRunBinary (dart:async/zone.dart:1170)
+#13     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#14     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#15     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#16     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#17     _Future._completeError (dart:async/future_impl.dart:485)
+#18     _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#19     _Completer.completeError (dart:async/future_impl.dart:27)
+#20     LocalStorageManager.deleteStoredFile.<deleteStoredFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/storage/local_storage_manager.dart:73:3)
+#21     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#22     _rootRunBinary (dart:async/zone.dart:1170)
+#23     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#24     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#25     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#26     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#27     _Future._completeWithValue (dart:async/future_impl.dart:477)
+#28     _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:528)
+#29     _rootRun (dart:async/zone.dart:1150)
+#30     _CustomZone.run (dart:async/zone.dart:1026)
+#31     _CustomZone.runGuarded (dart:async/zone.dart:924)
+#32     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:951)
+#33     _microtaskLoop (dart:async/schedule_microtask.dart:41)
+#34     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50)
+#35     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#36     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:149)
+
+2020-02-11 21:32:44.652413	0:00:00.038067	DELETE	[500]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+[2020-02-11 21:33:33.286790] INFO RPC: MDT starting ...
+[2020-02-11 21:33:33.297546] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:33:33.308559] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:33:33.310951] INFO RPC: mongo initializing... 
+[2020-02-11 21:33:33.399355] INFO RPC: mongo initialized
+[2020-02-11 21:33:33.402632] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:33:33.547581] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:33:33.548823] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:33:33.550852] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:33:33.553239] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:33:33.554909] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:33:33.556577] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:33:33.558236] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:33:33.560068] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:33:33.562248] INFO RPC: *       	->	/web/
+[2020-02-11 21:33:33.564653] INFO RPC: *       	->	/api/
+[2020-02-11 21:33:33.568580] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:34:46.597246] INFO RPC: MDT starting ...
+[2020-02-11 21:34:46.608032] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:34:46.614669] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:34:46.619337] INFO RPC: mongo initializing... 
+[2020-02-11 21:34:46.714017] INFO RPC: mongo initialized
+[2020-02-11 21:34:46.719027] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:34:46.862232] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:34:46.863615] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:34:46.865431] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:34:46.867625] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:34:46.870114] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:34:46.872223] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:34:46.874611] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:34:46.876585] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:34:46.878714] INFO RPC: *       	->	/web/
+[2020-02-11 21:34:46.881728] INFO RPC: *       	->	/api/
+[2020-02-11 21:34:46.886700] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:35:06.706263] INFO RPC: MDT starting ...
+[2020-02-11 21:35:06.716022] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:35:06.719723] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:35:06.722246] INFO RPC: mongo initializing... 
+[2020-02-11 21:35:06.819935] INFO RPC: mongo initialized
+[2020-02-11 21:35:06.823464] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:35:07.012814] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:35:07.013902] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:35:07.016096] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:35:07.019634] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:35:07.020765] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:35:07.023215] INFO RPC: *       	->	/api/in/
+overy
+[2020-02-11 21:35:07.027642] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:35:07.031188] INFO RPC: *       	->	/web/
+[2020-02-11 21:35:07.035398] INFO RPC: *       	->	/api/
+[2020-02-11 21:35:07.039692] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:36:00.637808] INFO RPC: MDT starting ...
+[2020-02-11 21:36:00.648252] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:36:00.651105] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:36:00.656478] INFO RPC: mongo initializing... 
+[2020-02-11 21:36:00.753583] INFO RPC: mongo initialized
+[2020-02-11 21:36:00.759652] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:36:00.910028] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:36:00.912915] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:36:00.914317] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:36:00.918218] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:36:00.921539] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:36:00.924649] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:36:00.926519] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:36:00.928292] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:36:00.929843] INFO RPC: *       	->	/web/
+[2020-02-11 21:36:00.932003] INFO RPC: *       	->	/api/
+[2020-02-11 21:36:00.936847] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:36:48.272602] INFO RPC: MDT starting ...
+[2020-02-11 21:36:48.287491] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:36:48.294852] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:36:48.298744] INFO RPC: mongo initializing... 
+[2020-02-11 21:36:48.394223] INFO RPC: mongo initialized
+[2020-02-11 21:36:48.398512] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:36:48.625371] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:36:48.626630] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:36:48.631146] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:36:48.633444] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:36:48.637387] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:36:48.642961] INFO RPC: *       	->	/api/in/
+overy
+[2020-02-11 21:36:48.648117] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:36:48.651269] INFO RPC: *       	->	/web/
+[2020-02-11 21:36:48.655786] INFO RPC: *       	->	/api/
+[2020-02-11 21:36:48.660330] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:36:48.698580] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:36:48.699270] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:37:01.267769	0:00:00.145424	POST	[200]	/api/users/v1/login
+2020-02-11 21:37:01.497946	0:00:00.373350	GET	[200]	/api/applications/v1/search
+2020-02-11 21:37:01.931218	0:00:00.038860	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:37:02.023381	0:00:00.055861	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:37:02.098510	0:00:00.005456	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:37:02.118751	0:00:00.006984	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:37:02.137351] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:37:02.134122	0:00:00.012848	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:37:02.159949] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:37:02.157221	0:00:00.004503	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:37:02.171882	0:00:00.006764	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:37:02.196055	0:00:00.013174	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:37:02.262378	0:00:00.022659	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:37:02.361760	0:00:00.013517	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:37:02.552136	0:00:00.015100	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:37:02.712495	0:00:00.011069	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:37:02.842295	0:00:00.009953	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:37:02.977623	0:00:00.049116	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:37:03.031200	0:00:00.007353	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:37:02.949195	0:00:00.144832	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:37:03.108896	0:00:00.017469	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:42:23.323148] INFO RPC: MDT starting ...
+[2020-02-11 21:42:23.343139] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:42:23.349162] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:42:23.351349] INFO RPC: mongo initializing... 
+[2020-02-11 21:42:23.443751] INFO RPC: mongo initialized
+[2020-02-11 21:42:23.446882] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:42:23.593253] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:42:23.594545] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:42:23.596825] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:42:23.599362] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:42:23.602879] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:42:23.604403] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:42:23.606542] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:42:23.607838] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:42:23.609290] INFO RPC: *       	->	/web/
+[2020-02-11 21:42:23.611756] INFO RPC: *       	->	/api/
+[2020-02-11 21:42:23.615790] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:42:23.648190] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:42:23.649615] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:42:24.887347	0:00:00.073078	DELETE	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+Status 401: Unauthorized: {signatures do not match. Received: HM3uzcQqMldS5FaZ4gnsap3GUKBvldQOXjZe9JBBGN4 vs Calculated: s0iGagMV0T2V3scndxRoy5RNLJ_frYPxvPzGPu9bnZA}
+package:shelf_auth/src/session/jwt/jwt_session_auth.dart 63:9  JwtSessionAuthenticator.authenticate.<fn>.<async>
+
+[2020-02-11 21:42:24.988369] ERROR exceptionHandler: {"code":401,"message":"Unauthorized"}
+2020-02-11 21:42:33.721268	0:00:00.016074	GET	[304]	/web/
+2020-02-11 21:42:36.229290	0:00:00.077472	POST	[200]	/api/users/v1/login
+2020-02-11 21:42:36.368657	0:00:00.306079	GET	[200]	/api/applications/v1/search
+2020-02-11 21:42:36.708532	0:00:00.033819	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:42:36.837432	0:00:00.010776	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:42:36.865469	0:00:00.004415	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:42:36.877229	0:00:00.004519	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:42:36.897431] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:42:36.893946	0:00:00.010973	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:42:36.922469] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:42:36.919218	0:00:00.010723	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:42:36.942835	0:00:00.004010	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:42:36.961625	0:00:00.008332	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:42:37.022427	0:00:00.011494	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:42:37.102334	0:00:00.009377	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:42:37.213216	0:00:00.005218	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:42:37.334949	0:00:00.014825	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:42:37.484870	0:00:00.029996	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:42:37.491954	0:00:00.077732	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:42:37.474320	0:00:00.173879	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:42:37.676250	0:00:00.002867	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:42:37.665994	0:00:00.019892	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:51:22.053312] INFO RPC: MDT starting ...
+[2020-02-11 21:51:22.065253] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:51:22.068934] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:51:22.071703] INFO RPC: mongo initializing... 
+[2020-02-11 21:51:22.166948] INFO RPC: mongo initialized
+[2020-02-11 21:51:22.171603] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:51:22.339410] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:51:22.340589] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:51:22.342598] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:51:22.345348] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:51:22.347261] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:51:22.348648] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:51:22.349667] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:51:22.351254] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:51:22.353051] INFO RPC: *       	->	/web/
+[2020-02-11 21:51:22.354665] INFO RPC: *       	->	/api/
+[2020-02-11 21:51:22.359374] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:51:22.389474] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:51:22.390283] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:51:26.544541	0:00:00.025910	GET	[304]	/web/
+2020-02-11 21:51:28.776508	0:00:00.131563	POST	[200]	/api/users/v1/login
+2020-02-11 21:51:28.980406	0:00:00.341646	GET	[200]	/api/applications/v1/search
+2020-02-11 21:51:29.359208	0:00:00.053197	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:51:29.482793	0:00:00.022531	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:51:29.517702	0:00:00.004404	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:51:29.534095	0:00:00.004651	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:51:29.552290] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:51:29.548146	0:00:00.011127	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:51:29.574644] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:51:29.570308	0:00:00.008534	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:51:29.593367	0:00:00.014660	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:51:29.624452	0:00:00.007581	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:51:29.700166	0:00:00.009296	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:51:29.781098	0:00:00.011046	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:51:29.902521	0:00:00.007678	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:51:30.018934	0:00:00.009399	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:51:30.140724	0:00:00.011507	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:51:30.251027	0:00:00.002624	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:51:31.520601	0:00:00.031854	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:51:31.487998	0:00:00.105695	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:51:31.821247	0:00:00.012301	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:53:02.413756] INFO RPC: MDT starting ...
+[2020-02-11 21:53:02.426200] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:53:02.434395] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:53:02.437351] INFO RPC: mongo initializing... 
+[2020-02-11 21:53:02.531426] INFO RPC: mongo initialized
+[2020-02-11 21:53:02.534661] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:53:02.687675] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:53:02.688962] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:53:02.690779] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:53:02.693643] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:53:02.697515] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:53:02.699182] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:53:02.701539] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:53:02.703075] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:53:02.705909] INFO RPC: *       	->	/web/
+[2020-02-11 21:53:02.707004] INFO RPC: *       	->	/api/
+[2020-02-11 21:53:02.710287] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:53:02.737614] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:53:02.738658] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:53:04.109007	0:00:00.068971	DELETE	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+Status 401: Unauthorized: {signatures do not match. Received: UqAzdIDHMRRVSOYwJdGtoTFGNwS7S1CKkh2pIPIY2so vs Calculated: kQcz6uEosfqVfDYdFsl6i93y4hlg9FNTtPV-_xbBQ0s}
+package:shelf_auth/src/session/jwt/jwt_session_auth.dart 63:9  JwtSessionAuthenticator.authenticate.<fn>.<async>
+
+[2020-02-11 21:53:04.202772] ERROR exceptionHandler: {"code":401,"message":"Unauthorized"}
+2020-02-11 21:53:05.947228	0:00:00.020950	GET	[304]	/web/
+2020-02-11 21:53:08.448875	0:00:00.077352	POST	[200]	/api/users/v1/login
+2020-02-11 21:53:08.585302	0:00:00.298237	GET	[200]	/api/applications/v1/search
+2020-02-11 21:53:08.915177	0:00:00.041848	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:53:09.041569	0:00:00.014153	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:53:09.063791	0:00:00.002676	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:53:09.073640	0:00:00.003655	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:53:09.087356] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:53:09.083705	0:00:00.009112	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:53:09.107352] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:53:09.102506	0:00:00.006490	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:53:09.121326	0:00:00.007284	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:53:09.143952	0:00:00.004590	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:53:09.198038	0:00:00.030831	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:53:09.282801	0:00:00.013019	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:53:09.431575	0:00:00.006294	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:53:09.549283	0:00:00.012100	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:53:09.670645	0:00:00.004839	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:53:09.784544	0:00:00.009918	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:53:11.221885	0:00:00.034150	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:53:11.198365	0:00:00.104119	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:53:11.316933	0:00:00.012626	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:53:31.877934] INFO RPC: MDT starting ...
+[2020-02-11 21:53:31.889333] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:53:31.892898] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:53:31.895240] INFO RPC: mongo initializing... 
+[2020-02-11 21:53:31.989112] INFO RPC: mongo initialized
+[2020-02-11 21:53:31.991884] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:53:32.139093] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:53:32.140180] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:53:32.142012] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:53:32.145096] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:53:32.147863] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:53:32.149603] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:53:32.151323] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:53:32.154724] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:53:32.156399] INFO RPC: *       	->	/web/
+[2020-02-11 21:53:32.158294] INFO RPC: *       	->	/api/
+[2020-02-11 21:53:32.160846] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:53:32.186062] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:53:32.186638] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:53:35.664486	0:00:00.024202	GET	[200]	/web/
+2020-02-11 21:53:38.287591	0:00:00.136898	POST	[200]	/api/users/v1/login
+2020-02-11 21:53:38.503813	0:00:00.297772	GET	[200]	/api/applications/v1/search
+2020-02-11 21:53:38.833244	0:00:00.066200	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:53:38.967907	0:00:00.008891	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:53:38.990435	0:00:00.005117	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:53:39.012941	0:00:00.003417	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:53:39.029962] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:53:39.026828	0:00:00.007506	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:53:39.050982] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:53:39.044403	0:00:00.008179	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:53:39.061542	0:00:00.005247	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:53:39.079596	0:00:00.004424	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:53:39.150797	0:00:00.013641	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:53:39.230933	0:00:00.011064	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:53:39.403360	0:00:00.015081	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:53:39.501093	0:00:00.026260	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:53:39.537773	0:00:00.044815	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:53:39.507867	0:00:00.140804	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:53:39.652858	0:00:00.005161	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:53:39.663416	0:00:00.014526	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+2020-02-11 21:53:39.749684	0:00:00.008282	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+[2020-02-11 21:55:33.026998] ERROR RPC: Bad state: Unable to delete artifact:NoSuchMethodError: Closure call with mismatched arguments: function 'deleteArtifactFile.<deleteArtifactFile_async_body>.<anonymous closure>'
+Receiver: Closure: () => dynamic
+Tried calling: deleteArtifactFile.<deleteArtifactFile_async_body>.<anonymous closure>(Instance of 'ArtifactError')
+Found: deleteArtifactFile.<deleteArtifactFile_async_body>.<anonymous closure>():
+ #0      deleteArtifact.<deleteArtifact_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:175:5)
+#1      _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#2      _rootRunBinary (dart:async/zone.dart:1170)
+#3      _CustomZone.runBinary (dart:async/zone.dart:1049)
+#4      _FutureListener.handleError (dart:async/future_impl.dart:146)
+#5      _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#6      _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#7      _Future._completeError (dart:async/future_impl.dart:485)
+#8      _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#9      _Completer.completeError (dart:async/future_impl.dart:27)
+#10     deleteArtifactFile.<deleteArtifactFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/artifacts_manager.dart:170:1)
+#11     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#12     _rootRunBinary (dart:async/zone.dart:1170)
+#13     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#14     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#15     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#16     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#17     _Future._completeError (dart:async/future_impl.dart:485)
+#18     _SyncCompleter._completeError (dart:async/future_impl.dart:56)
+#19     _Completer.completeError (dart:async/future_impl.dart:27)
+#20     LocalStorageManager.deleteStoredFile.<deleteStoredFile_async_body> (file:///workspaces/MobDistTool/server/managers/src/storage/local_storage_manager.dart:73:3)
+#21     _asyncErrorWrapperHelper.<anonymous closure> (dart:async-patch/async_patch.dart:34)
+#22     _rootRunBinary (dart:async/zone.dart:1170)
+#23     _CustomZone.runBinary (dart:async/zone.dart:1049)
+#24     _FutureListener.handleError (dart:async/future_impl.dart:146)
+#25     _Future._propagateToListeners.handleError (dart:async/future_impl.dart:649)
+#26     _Future._propagateToListeners (dart:async/future_impl.dart:671)
+#27     _Future._completeWithValue (dart:async/future_impl.dart:477)
+#28     _Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:528)
+#29     _rootRun (dart:async/zone.dart:1150)
+#30     _CustomZone.run (dart:async/zone.dart:1026)
+#31     _CustomZone.runGuarded (dart:async/zone.dart:924)
+#32     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:951)
+#33     _microtaskLoop (dart:async/schedule_microtask.dart:41)
+#34     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50)
+#35     _runPendingImmediateCallback (dart:isolate-patch/isolate_patch.dart:96)
+#36     _RawReceivePortImpl._handleMessage (dart:isolate-patch/isolate_patch.dart:149)
+
+2020-02-11 21:53:44.464006	0:01:48.725527	DELETE	[500]	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+[2020-02-11 21:56:24.692914] INFO RPC: MDT starting ...
+[2020-02-11 21:56:24.703787] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:56:24.709281] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:56:24.711679] INFO RPC: mongo initializing... 
+[2020-02-11 21:56:24.809106] INFO RPC: mongo initialized
+[2020-02-11 21:56:24.812145] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:56:24.972113] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:56:24.973411] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:56:24.975104] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:56:24.977386] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:56:24.980678] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:56:24.983131] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:56:24.984778] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:56:24.987048] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:56:24.989374] INFO RPC: *       	->	/web/
+[2020-02-11 21:56:24.992221] INFO RPC: *       	->	/api/
+[2020-02-11 21:56:24.995316] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:56:25.021028] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:56:25.021992] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:56:34.725897	0:00:00.024790	GET	[304]	/web/
+2020-02-11 21:56:37.069080	0:00:00.150637	POST	[200]	/api/users/v1/login
+2020-02-11 21:56:37.286340	0:00:00.309152	GET	[200]	/api/applications/v1/search
+2020-02-11 21:56:37.627679	0:00:00.037381	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:56:37.711259	0:00:00.021496	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:56:37.750770	0:00:00.008598	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:56:37.773589	0:00:00.004526	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:56:37.796720] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:56:37.788024	0:00:00.014038	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:56:37.816123] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:56:37.813304	0:00:00.004611	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:56:37.830647	0:00:00.004657	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:56:37.847050	0:00:00.011539	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:56:37.916903	0:00:00.010546	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:56:37.961307	0:00:00.009734	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:56:38.106306	0:00:00.005402	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:56:38.212099	0:00:00.009341	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:56:38.369674	0:00:00.027245	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:56:38.353710	0:00:00.055356	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:56:38.333898	0:00:00.129654	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:56:38.477151	0:00:00.013705	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+2020-02-11 21:56:38.506339	0:00:00.002779	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:56:43.758077	0:00:02.361026	DELETE	[200]	/api/art/v1/artifacts/ce92417a-236b-4927-b6a2-82edaf6c1f4b
+2020-02-11 21:56:49.517305	0:00:00.001558	GET	[304]	/web/
+2020-02-11 21:57:09.658209	0:00:00.015174	POST	[200]	/api/users/v1/login
+2020-02-11 21:57:09.727069	0:00:00.206918	GET	[200]	/api/applications/v1/search
+2020-02-11 21:57:09.962559	0:00:00.034891	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:57:09.965402	0:00:00.061855	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:57:09.970433	0:00:00.058933	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:57:09.972800	0:00:00.060231	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:57:09.975766	0:00:00.058519	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:57:10.044799	0:00:00.028963	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:57:10.056873	0:00:00.020587	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:57:10.064195	0:00:00.015633	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:57:10.091105] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:57:10.066513	0:00:00.028593	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:57:10.139722] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:57:10.124820	0:00:00.018329	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:57:10.128641	0:00:00.016153	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:57:10.119803	0:00:00.028937	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:57:10.132505	0:00:00.030888	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:57:10.285169	0:00:00.002277	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:57:10.952447	0:00:00.022809	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:57:10.937510	0:00:00.073357	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:57:11.062235	0:00:00.008331	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+2020-02-11 21:57:16.182314	0:00:00.017699	DELETE	[200]	/api/art/v1/artifacts/c449281b-4c2e-4577-a2d7-e09b25127a2d
+2020-02-11 21:57:17.675873	0:00:00.002180	GET	[304]	/web/
+2020-02-11 21:57:20.618540	0:00:00.010303	POST	[200]	/api/users/v1/login
+2020-02-11 21:57:20.683360	0:00:00.194701	GET	[200]	/api/applications/v1/search
+2020-02-11 21:57:20.910851	0:00:00.025480	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:57:20.915345	0:00:00.062633	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:57:20.918064	0:00:00.062715	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:57:20.920431	0:00:00.062602	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:57:20.922455	0:00:00.063544	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:57:20.994320	0:00:00.012321	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:57:21.013330	0:00:00.016166	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+[2020-02-11 21:57:21.054246] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:57:21.025063	0:00:00.033762	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+2020-02-11 21:57:21.035012	0:00:00.030821	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:57:21.077469] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:57:21.038380	0:00:00.043446	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:57:21.073180	0:00:00.015978	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:57:21.092746	0:00:00.010598	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:57:21.096817	0:00:00.015251	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:57:21.214319	0:00:00.002594	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:57:22.097865	0:00:00.015808	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:57:22.069842	0:00:00.073058	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:57:22.195185	0:00:00.011255	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+[2020-02-11 21:58:16.552145] INFO RPC: MDT starting ...
+[2020-02-11 21:58:16.560962] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:58:16.564309] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:58:16.566976] INFO RPC: mongo initializing... 
+[2020-02-11 21:58:16.662302] INFO RPC: mongo initialized
+[2020-02-11 21:58:16.665611] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:58:16.814873] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:58:16.816382] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:58:16.820258] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:58:16.822868] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:58:16.825191] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:58:16.827767] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:58:16.830851] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:58:16.832996] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:58:16.836047] INFO RPC: *       	->	/web/
+[2020-02-11 21:58:16.838013] INFO RPC: *       	->	/api/
+[2020-02-11 21:58:16.841422] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:58:16.867374] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:58:16.868309] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:58:19.551622	0:00:00.069573	DELETE	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+Status 401: Unauthorized: {signatures do not match. Received: bqxMqoJa2_O2Foru8Yr1E1It9_eLXLhiIQd6fdrDVCo vs Calculated: ZJyuER4TQye5dG6rjquVJNHtHCqpVKk531KD0Z_M460}
+package:shelf_auth/src/session/jwt/jwt_session_auth.dart 63:9  JwtSessionAuthenticator.authenticate.<fn>.<async>
+
+[2020-02-11 21:58:19.644191] ERROR exceptionHandler: {"code":401,"message":"Unauthorized"}
+[2020-02-11 21:58:27.188770] INFO RPC: MDT starting ...
+[2020-02-11 21:58:27.207375] INFO RPC: logging file : .mdt_logs_20200211.txt
+[2020-02-11 21:58:27.211267] INFO RPC: mongo located on  mongodb://host.docker.internal:27017/mdt_dev
+[2020-02-11 21:58:27.216236] INFO RPC: mongo initializing... 
+[2020-02-11 21:58:27.314515] INFO RPC: mongo initialized
+[2020-02-11 21:58:27.319136] INFO RPC: Storage initialized to Local Storage Manager
+[2020-02-11 21:58:27.468348] INFO RPC: GET,POST	->	/api/users/v1/login
+[2020-02-11 21:58:27.469228] INFO RPC: *       	->	/api/users/v1/register
+[2020-02-11 21:58:27.471318] INFO RPC: *       	->	/api/users/v1/forgotPassword
+[2020-02-11 21:58:27.473315] INFO RPC: GET     	->	/api/in/v1/artifacts/{artifactid}/file{?token}
+[2020-02-11 21:58:27.475745] INFO RPC: *       	->	/api/applications/v1/app/{appId}/maxversion/{name}
+[2020-02-11 21:58:27.476935] INFO RPC: *       	->	/api/in/
+[2020-02-11 21:58:27.479065] INFO RPC: *       	->	/api/discovery
+[2020-02-11 21:58:27.482012] INFO RPC: *       	->	/weblegacy/
+[2020-02-11 21:58:27.484296] INFO RPC: *       	->	/web/
+[2020-02-11 21:58:27.486282] INFO RPC: *       	->	/api/
+[2020-02-11 21:58:27.489967] INFO RPC: bind localhost on port 8080
+[2020-02-11 21:58:27.530811] INFO RPC: MDT version(1.2.4) started on port 8080.
+[2020-02-11 21:58:27.531416] INFO RPC: You can access server Web UI on http://localhost:8080/web/
+2020-02-11 21:58:30.156966	0:00:00.023943	GET	[200]	/web/
+2020-02-11 21:58:30.585086	0:00:00.010655	GET	[304]	/web/
+2020-02-11 21:58:32.680250	0:00:00.140878	POST	[200]	/api/users/v1/login
+2020-02-11 21:58:32.887009	0:00:00.319182	GET	[200]	/api/applications/v1/search
+2020-02-11 21:58:33.244594	0:00:00.064855	GET	[200]	/api/in/v1/app/1ab6bdc9-681b-4abb-94a7-5e480693c6dd/icon
+2020-02-11 21:58:33.376325	0:00:00.021694	GET	[200]	/api/in/v1/app/4e144527-5b7f-4458-b946-061a0bcba013/icon
+2020-02-11 21:58:33.421288	0:00:00.003889	GET	[200]	/api/in/v1/app/a3e04b9e-209b-4512-a0e1-63b0b7a90fe3/icon
+2020-02-11 21:58:33.435688	0:00:00.004290	GET	[200]	/api/in/v1/app/b219cd38-1709-4a95-833e-500bbeb72f37/icon
+[2020-02-11 21:58:33.452244] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:58:33.447175	0:00:00.011536	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+[2020-02-11 21:58:33.471772] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:58:33.468004	0:00:00.005090	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon
+2020-02-11 21:58:33.481305	0:00:00.007487	GET	[200]	/api/in/v1/app/749c4b6d-605e-489a-886b-eecc216f1acd/icon
+2020-02-11 21:58:33.500081	0:00:00.005094	GET	[200]	/api/in/v1/app/77889cdf-87f2-4855-a220-6a957c4d50bd/icon
+2020-02-11 21:58:33.552207	0:00:00.009629	GET	[200]	/api/in/v1/app/b8d98b5a-0722-4fb6-9a28-daeafa6adb40/icon
+2020-02-11 21:58:33.617899	0:00:00.014445	GET	[200]	/api/in/v1/app/9d97ecd2-d8b1-4841-bbf8-4dad8d893aee/icon
+2020-02-11 21:58:33.754006	0:00:00.005245	GET	[200]	/api/in/v1/app/fb2fa299-bd52-48b9-a741-cbeec1767638/icon
+2020-02-11 21:58:33.887996	0:00:00.010383	GET	[200]	/api/in/v1/app/7a8f33f8-5624-4f4e-bf7d-5331c2921685/icon
+2020-02-11 21:58:34.009986	0:00:00.003244	GET	[200]	/api/in/v1/app/6da0168a-f498-4485-9a67-054211801da9/icon
+2020-02-11 21:58:34.058241	0:00:00.049886	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:58:34.034746	0:00:00.125000	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions?pageIndex=0&limitPerPage=50
+2020-02-11 21:58:34.184539	0:00:00.009661	GET	[200]	/api/in/v1/app/f7693bf2-245b-4c2e-8c42-45aaeac5f92c/icon
+2020-02-11 21:58:34.175008	0:00:00.025771	GET	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba/versions/last
+2020-02-11 21:58:39.583463	0:00:00.066511	DELETE	[200]	/api/applications/v1/app/b2b3f7ae-3787-4bd8-b994-b0a116b6b4ba
+2020-02-11 21:58:39.666629	0:00:00.171810	GET	[200]	/api/applications/v1/search
+[2020-02-11 21:58:39.946990] INFO RPC: RPC Error with status: 404 and message: Icon not found
+[2020-02-11 21:58:39.948328] INFO RPC: RPC Error with status: 404 and message: Icon not found
+2020-02-11 21:58:39.935913	0:00:00.015129	GET	[404]	/api/in/v1/app/2b0ba334-90d1-43b1-a4c1-7030211345f3/icon
+2020-02-11 21:58:39.942781	0:00:00.010362	GET	[404]	/api/in/v1/app/a59b854e-fd6b-4845-be23-08fe1a61a961/icon

@@ -22,7 +22,15 @@ class logResponse {
 class Response {
   int status;
   Map<String,String> data;
-  Response(this.status,this.data);
+  List<String> extraInfo = ResponseExtraInfo.info;
+
+  Response(this.status,this.data) {
+    ResponseExtraInfo.info = [];
+  }
+}
+
+class ResponseExtraInfo {
+  static List<String> info = [];
 }
 
 class DownloadInfo {

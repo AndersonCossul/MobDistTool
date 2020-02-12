@@ -7,6 +7,7 @@ import 'dart:io';
 import 'dart:math';
 import 'base_storage_manager.dart';
 import '../../errors.dart';
+import '../../../services/model.dart';
 
 class LocalStorageManager extends BaseStorageManager {
   String storageIdentifier = "LocalStorage";
@@ -59,12 +60,16 @@ class LocalStorageManager extends BaseStorageManager {
   }
 
   Future<bool> deleteStoredFile(String storedInfos) async {
-    try{
-    String filename = extractStorageId(storedInfos);
-    var file = new File("${rootStoragePath}/$filename");
-    await file.delete();
-    return new Future.value(true);
-    }catch(e){
+    try {
+      String filename = extractStorageId(storedInfos);
+      var file = new File("${rootStoragePath}/$filename");
+      if (file.existsSync()) {
+        file.deleteSync();
+      } else {
+        ResponseExtraInfo.info.add("File was already deleted on disk.");
+      }
+      return new Future.value(true);
+    } catch(e) {
       print("Local File Manager :Delete Error : ${e.toString()}");
       throw new ArtifactError("Error on deleting file");
     }

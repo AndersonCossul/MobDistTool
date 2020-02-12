@@ -1,0 +1,234 @@
+[2020-02-11 21:25:33.296727] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:25:39.561168] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:27:16.723384] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:27:23.467014] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:30:08.477028] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:30:31.695178] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:32:23.819674] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:32:29.783749] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:32:35.764985] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:32:44.661974] DELETE Application android 'ACM-Android' by anderson.cossul@softdesign.com.br
+[2020-02-11 21:37:01.318747] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:37:08.604245] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:42:36.252881] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:42:41.415808] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:51:28.814462] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:51:33.825633] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:53:08.473913] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:53:13.188876] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:53:38.329395] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:53:44.475832] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:56:37.115292] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:56:43.769877] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:57:09.662452] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:57:16.190906] DELETE Artifact (v 'f22492d, branch:develop') on application android 'ACM-Android'
+[2020-02-11 21:57:20.622479] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:58:32.724937] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-11 21:58:39.592480] DELETE Application android 'ACM-Android' by anderson.cossul@softdesign.com.br
+[2020-02-12 17:35:54.199288] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 17:36:00.681671] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 17:37:51.102296] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 17:38:17.466232] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:01:50.765662] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:02:07.258506] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:04:43.830237] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:05:00.091008] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:07:18.763468] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:07:25.404966] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:08:38.467349] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:08:45.315103] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:09:13.332447] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:09:20.192324] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:13:17.464590] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:13:25.017947] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:13:43.658847] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:13:51.643351] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:14:51.869881] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:14:59.117411] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:17:18.275866] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:21:23.688110] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:21:29.353505] DELETE Artifact (v 'e746230, branch:develop') on application android 'AGSR - Android'
+[2020-02-12 20:21:38.305662] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:27:10.719608] Login Failed for toto
+[2020-02-12 20:27:10.903444] Registration Success for test@test.com
+[2020-02-12 20:27:10.923830] Login Success for test@test.com
+[2020-02-12 20:27:11.036542] Login Success for admin@softdesign-rs.com.br
+[2020-02-12 20:27:11.146937] Login Failed for test@test.com
+[2020-02-12 20:27:11.191912] Registration Success for apptest@test.com
+[2020-02-12 20:27:11.207622] Registration Success for apptest2@test.com
+[2020-02-12 20:27:11.224556] Login Success for apptest@test.com
+[2020-02-12 20:27:11.316067] CREATE Application 'ios Application test ios' by apptest@test.com
+[2020-02-12 20:27:11.376105] CREATE Application 'android Application test android' by apptest@test.com
+[2020-02-12 20:27:11.808233] DELETE Application ios 'Application test ios' by apptest@test.com
+[2020-02-12 20:27:11.875376] Registration Success for test@test.com
+[2020-02-12 20:27:11.886315] Login Success for test@test.com
+[2020-02-12 20:27:11.928783] CREATE Application 'android Application test android' by test@test.com
+[2020-02-12 20:27:12.087515] ADD Artifact (v 'X.Y.Z_prod, branch:master') on application android 'Application test android'
+[2020-02-12 20:27:12.122437] DELETE Artifact (v 'X.Y.Z_prod, branch:master') on application android 'Application test android'
+[2020-02-12 20:27:12.161693] CREATE Application 'ios Application test ios' by test@test.com
+[2020-02-12 20:27:12.228828] ADD Artifact (v 'X.Y.Z_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.264271] ADD Artifact (v 'latest, branch:@@@@LAST####') on application ios 'Application test ios'
+[2020-02-12 20:27:12.297502] DELETE Artifact (v 'latest, branch:@@@@LAST####') on application ios 'Application test ios'
+[2020-02-12 20:27:12.340868] DOWNLOAD Artifact, user:test@test.com, version:'X.Y.Z_prod', branch:X.Y.Z_prod app:ios 'Application test ios'
+[2020-02-12 20:27:12.395543] ADD Artifact (v 'Y.Y.Z_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.418211] Login Success for test@test.com
+[2020-02-12 20:27:12.433623] DELETE Artifact (v 'Y.Y.Z_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.464189] ADD Artifact (v 'X.Y.0_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.489086] ADD Artifact (v 'X.Y.1_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.512621] ADD Artifact (v 'X.Y.2_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.538721] ADD Artifact (v 'X.Y.3_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.563287] ADD Artifact (v 'X.Y.4_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.585642] ADD Artifact (v 'X.Y.5_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.611560] ADD Artifact (v 'X.Y.6_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.636658] ADD Artifact (v 'X.Y.7_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.660322] ADD Artifact (v 'X.Y.8_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.682559] ADD Artifact (v 'X.Y.9_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.703194] ADD Artifact (v 'X.Y.10_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.723749] ADD Artifact (v 'X.Y.11_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.747634] ADD Artifact (v 'X.Y.12_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.768102] ADD Artifact (v 'X.Y.13_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.789786] ADD Artifact (v 'X.Y.14_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.812282] ADD Artifact (v 'X.Y.15_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.832982] ADD Artifact (v 'X.Y.16_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.854713] ADD Artifact (v 'X.Y.17_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.876052] ADD Artifact (v 'X.Y.18_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.897086] ADD Artifact (v 'X.Y.19_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.919365] ADD Artifact (v 'X.Y.20_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.944029] ADD Artifact (v 'X.Y.21_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.966034] ADD Artifact (v 'X.Y.22_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:12.986047] ADD Artifact (v 'X.Y.23_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.014373] ADD Artifact (v 'X.Y.24_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.039335] ADD Artifact (v 'X.Y.25_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.063131] ADD Artifact (v 'X.Y.26_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.086042] ADD Artifact (v 'X.Y.27_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.106605] ADD Artifact (v 'X.Y.28_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.126595] ADD Artifact (v 'X.Y.29_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.180507] DELETE Artifact (v 'X.Y.29_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.193238] DELETE Artifact (v 'X.Y.28_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.207212] DELETE Artifact (v 'X.Y.27_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.220513] DELETE Artifact (v 'X.Y.26_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.231946] DELETE Artifact (v 'X.Y.25_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.243447] DELETE Artifact (v 'X.Y.24_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.255889] DELETE Artifact (v 'X.Y.23_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.267658] DELETE Artifact (v 'X.Y.22_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.280725] DELETE Artifact (v 'X.Y.21_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.295436] DELETE Artifact (v 'X.Y.20_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.308478] DELETE Artifact (v 'X.Y.19_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.320578] DELETE Artifact (v 'X.Y.18_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.332937] DELETE Artifact (v 'X.Y.17_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.346082] DELETE Artifact (v 'X.Y.16_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.358010] DELETE Artifact (v 'X.Y.15_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.371485] DELETE Artifact (v 'X.Y.14_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.384271] DELETE Artifact (v 'X.Y.13_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.395790] DELETE Artifact (v 'X.Y.12_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.407669] DELETE Artifact (v 'X.Y.11_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.421696] DELETE Artifact (v 'X.Y.10_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:27:13.534438] Registration Success for apptest@test.com
+[2020-02-12 20:27:13.543311] Login Success for apptest@test.com
+[2020-02-12 20:27:13.581695] CREATE Application 'ios Application test ios' by apptest@test.com
+[2020-02-12 20:27:13.650601] Login Success for admin@softdesign-rs.com.br
+[2020-02-12 20:28:06.433992] Login Failed for toto
+[2020-02-12 20:28:06.614472] Registration Success for test@test.com
+[2020-02-12 20:28:06.632901] Login Success for test@test.com
+[2020-02-12 20:28:06.747742] Login Success for admin@softdesign-rs.com.br
+[2020-02-12 20:28:06.851449] Login Failed for test@test.com
+[2020-02-12 20:28:06.893864] Registration Success for apptest@test.com
+[2020-02-12 20:28:06.907230] Registration Success for apptest2@test.com
+[2020-02-12 20:28:06.919098] Login Success for apptest@test.com
+[2020-02-12 20:28:07.002852] CREATE Application 'ios Application test ios' by apptest@test.com
+[2020-02-12 20:28:07.056927] CREATE Application 'android Application test android' by apptest@test.com
+[2020-02-12 20:28:07.470324] DELETE Application ios 'Application test ios' by apptest@test.com
+[2020-02-12 20:28:07.540631] Registration Success for test@test.com
+[2020-02-12 20:28:07.550528] Login Success for test@test.com
+[2020-02-12 20:28:07.591872] CREATE Application 'android Application test android' by test@test.com
+[2020-02-12 20:28:07.747855] ADD Artifact (v 'X.Y.Z_prod, branch:master') on application android 'Application test android'
+[2020-02-12 20:28:07.779008] DELETE Artifact (v 'X.Y.Z_prod, branch:master') on application android 'Application test android'
+[2020-02-12 20:28:07.814557] CREATE Application 'ios Application test ios' by test@test.com
+[2020-02-12 20:28:07.881640] ADD Artifact (v 'X.Y.Z_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:07.919634] ADD Artifact (v 'latest, branch:@@@@LAST####') on application ios 'Application test ios'
+[2020-02-12 20:28:07.949771] DELETE Artifact (v 'latest, branch:@@@@LAST####') on application ios 'Application test ios'
+[2020-02-12 20:28:07.986787] DOWNLOAD Artifact, user:test@test.com, version:'X.Y.Z_prod', branch:X.Y.Z_prod app:ios 'Application test ios'
+[2020-02-12 20:28:08.041383] ADD Artifact (v 'Y.Y.Z_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.062102] Login Success for test@test.com
+[2020-02-12 20:28:08.076529] DELETE Artifact (v 'Y.Y.Z_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.107404] ADD Artifact (v 'X.Y.0_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.132638] ADD Artifact (v 'X.Y.1_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.157041] ADD Artifact (v 'X.Y.2_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.181452] ADD Artifact (v 'X.Y.3_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.205394] ADD Artifact (v 'X.Y.4_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.229538] ADD Artifact (v 'X.Y.5_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.256474] ADD Artifact (v 'X.Y.6_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.280423] ADD Artifact (v 'X.Y.7_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.308812] ADD Artifact (v 'X.Y.8_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.336828] ADD Artifact (v 'X.Y.9_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.357520] ADD Artifact (v 'X.Y.10_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.378208] ADD Artifact (v 'X.Y.11_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.399570] ADD Artifact (v 'X.Y.12_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.421570] ADD Artifact (v 'X.Y.13_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.444969] ADD Artifact (v 'X.Y.14_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.466263] ADD Artifact (v 'X.Y.15_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.493533] ADD Artifact (v 'X.Y.16_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.515827] ADD Artifact (v 'X.Y.17_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.536648] ADD Artifact (v 'X.Y.18_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.558182] ADD Artifact (v 'X.Y.19_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.578641] ADD Artifact (v 'X.Y.20_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.600785] ADD Artifact (v 'X.Y.21_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.624898] ADD Artifact (v 'X.Y.22_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.648225] ADD Artifact (v 'X.Y.23_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.673656] ADD Artifact (v 'X.Y.24_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.694883] ADD Artifact (v 'X.Y.25_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.716008] ADD Artifact (v 'X.Y.26_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.739216] ADD Artifact (v 'X.Y.27_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.763342] ADD Artifact (v 'X.Y.28_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.786998] ADD Artifact (v 'X.Y.29_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.841647] DELETE Artifact (v 'X.Y.29_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.856105] DELETE Artifact (v 'X.Y.28_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.870672] DELETE Artifact (v 'X.Y.27_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.884074] DELETE Artifact (v 'X.Y.26_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.897623] DELETE Artifact (v 'X.Y.25_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.909726] DELETE Artifact (v 'X.Y.24_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.923774] DELETE Artifact (v 'X.Y.23_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.938362] DELETE Artifact (v 'X.Y.22_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.953644] DELETE Artifact (v 'X.Y.21_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.966585] DELETE Artifact (v 'X.Y.20_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.980271] DELETE Artifact (v 'X.Y.19_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:08.993248] DELETE Artifact (v 'X.Y.18_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.006817] DELETE Artifact (v 'X.Y.17_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.018916] DELETE Artifact (v 'X.Y.16_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.031393] DELETE Artifact (v 'X.Y.15_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.043484] DELETE Artifact (v 'X.Y.14_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.056118] DELETE Artifact (v 'X.Y.13_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.069087] DELETE Artifact (v 'X.Y.12_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.081823] DELETE Artifact (v 'X.Y.11_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.095245] DELETE Artifact (v 'X.Y.10_prod, branch:master') on application ios 'Application test ios'
+[2020-02-12 20:28:09.199444] Registration Success for apptest@test.com
+[2020-02-12 20:28:09.210221] Login Success for apptest@test.com
+[2020-02-12 20:28:09.249714] CREATE Application 'ios Application test ios' by apptest@test.com
+[2020-02-12 20:28:09.324069] Login Success for admin@softdesign-rs.com.br
+[2020-02-12 20:28:50.987254] Login Failed for anderson.cossul@softdesign.com.br
+[2020-02-12 20:29:55.834975] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:31:57.208047] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:56:05.894691] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:56:16.910064] DELETE Artifact (v 'fc038da, branch:develop') on application android 'ACM-Android'
+[2020-02-12 20:57:55.024882] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 20:58:02.959497] DELETE Artifact (v 'fc038da, branch:develop') on application android 'ACM-Android'
+[2020-02-12 20:58:31.490124] DELETE Artifact (v 'f60760b, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:10:18.337279] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 21:10:29.029693] DELETE Artifact (v 'f78ccd7, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:10:32.976409] DELETE Artifact (v 'eca9e3e, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:19:10.956249] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 21:19:20.160592] DELETE Artifact (v 'f22492d, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:19:40.065852] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 21:19:46.619867] DELETE Artifact (v 'cfd11f4, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:20:26.920892] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 21:20:34.145619] DELETE Artifact (v 'cef6adc, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:21:23.885552] DELETE Artifact (v 'cb4a0e6, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:21:33.823097] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 21:21:41.538280] DELETE Artifact (v 'cbcfe34, branch:develop') on application android 'ACM-Android'
+[2020-02-12 21:21:43.760770] DELETE Artifact (v '8f49140, branch:develop') on application android 'ACM-Android'
+[2020-02-12 22:02:06.804818] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 22:02:13.551574] DELETE Artifact (v 'a902e74, branch:develop') on application android 'ACM-Android'
+[2020-02-12 22:02:17.358275] DELETE Artifact (v '86fe09c, branch:develop') on application android 'ACM-Android'
+[2020-02-12 22:02:58.593105] Login Success for anderson.cossul@softdesign.com.br
+[2020-02-12 22:03:06.049218] DELETE Artifact (v '89ad52b, branch:develop') on application android 'ACM-Android'
+[2020-02-12 22:03:10.475349] DELETE Artifact (v '726e917, branch:develop') on application android 'ACM-Android'
